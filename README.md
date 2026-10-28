@@ -41,8 +41,7 @@ gradle build
 
 # Bug
 
-部分动画第一人称头部显示，并导致的视角穿模问题，并不属于此mod的问题，属于动画本身问题
-经过实机测试，在未安装此mod与FirstPerson mod，第一人称动画过程中头部依然显示，并导致的视角穿模
+部分动画第一人称头部显示，并导致的视角穿模问题，并不属于此mod的问题，属于动画本身问题，经过实机测试，在未安装此mod与FirstPerson mod，第一人称动画过程中头部依然显示，并导致的视角穿模
 
 # English/英文翻译
 
@@ -84,5 +83,4 @@ Output artifact: build/libs/nonfpcompat-1.0.0.jar
 
 # Bug
 
-Some animations show the head in first person, causing view clipping issues. This is not a problem with this mod, but a problem with the animations themselves.
-After in-game testing, without this mod and the FirstPerson mod installed, the head still shows during first-person animations, causing view clipping.
+Some animations show the head in first person, causing view clipping issues. This is not a problem with this mod, but a problem with the animations themselves.After in-game testing, without this mod and the FirstPerson mod installed, the head still shows during first-person animations, causing view clipping.
