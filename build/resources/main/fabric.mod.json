@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "nonfpcompat",
+  "version": "1.0.0",
+  "name": "NoN-FirstPerson Compat Patch",
+  "description": "While you take part in a NeedsOfNature animation, hide FirstPerson's own first-person body.\n当你参与NeedsOfNature动画时，隐藏FirstPerson自带的第一人称身体。",
+  "authors": [
+    "wotian"
+  ],
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nonfp.compat.NonFpCompatClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "nonfpcompat.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

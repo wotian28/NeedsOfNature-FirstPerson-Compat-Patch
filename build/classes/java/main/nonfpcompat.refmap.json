@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/nonfp/compat/mixin/TitleScreenMixin": {
+      "init": "Lnet/minecraft/class_442;method_25426()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/nonfp/compat/mixin/TitleScreenMixin": {
+        "init": "Lnet/minecraft/class_442;method_25426()V"
+      }
+    }
+  }
+}

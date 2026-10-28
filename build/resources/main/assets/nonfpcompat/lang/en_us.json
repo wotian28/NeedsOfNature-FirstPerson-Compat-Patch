@@ -1,0 +1,7 @@
+{
+  "nonfpcompat.screen.title": "NoN-FirstPerson Compat Patch",
+  "nonfpcompat.screen.missing": "Missing mod: %s",
+  "nonfpcompat.screen.incompatible": "Unsupported mod version",
+  "nonfpcompat.screen.disabled": "The compatibility add-on disabled itself. The game runs normally.",
+  "nonfpcompat.screen.hint": "Press Esc or the close button to continue"
+}

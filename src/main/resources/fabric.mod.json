@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "nonfpcompat",
+  "version": "${version}",
+  "name": "NoN-FirstPerson Compat Patch",
+  "description": "Hides your own first person body while you take part in a NeedsOfNature animation, and restores it as soon as the animation ends. Loads harmlessly, and shows one dismissible notice, when either mod is missing.",
+  "authors": [
+    "nonfpcompat"
+  ],
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nonfp.compat.NonFpCompatClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "nonfpcompat.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
